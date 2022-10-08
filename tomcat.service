@@ -3,8 +3,8 @@ Description=tomcat service
 [Service]
 Type=forking
 Environment=JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64/
-Environment=CATALINA_HOME=/u01/middleware/apache=tomcat-9.0.68
-ExecStart=/u01/middleware/apache=tomcat-9.0.68/startup.sh
-ExecStop=/u01/middleware/apache=tomcat-9.0.68/shutdown.sh
+Environment=CATALINA_HOME=/u01/middleware/apache=tomcat-10.0.26
+ExecStart=/u01/middleware/apache=tomcat-10.0.26/startup.sh
+ExecStop=/u01/middleware/apache=tomcat-10.0.26/shutdown.sh
 [Install]
 WantedBy=multi-user.target
